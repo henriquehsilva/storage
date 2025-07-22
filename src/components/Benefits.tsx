@@ -37,6 +37,18 @@ const Benefits: React.FC<BenefitsProps> = ({ darkMode }) => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
+        {/* YouTube player */}
+        <div className="mb-12 flex justify-center">
+          <div className="w-full max-w-6xl h-[500px] md:h-[600px] rounded-xl overflow-hidden shadow-lg mx-auto mb-12">
+            <iframe
+              src="https://www.youtube.com/embed/Y4W1b0XQr4s?si=UYEbRAuDlUPoWKIW"
+              title="Vídeo de Apresentação do Storge"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+        </div>
         <div className="text-center mb-16">
           <h2 className={`text-3xl md:text-5xl font-bold mb-6 ${
             darkMode ? 'text-cream' : 'text-sage'
@@ -100,7 +112,7 @@ const Benefits: React.FC<BenefitsProps> = ({ darkMode }) => {
             <p className={`text-lg md:text-xl font-medium ${
               darkMode ? 'text-cream' : 'text-sage'
             }`}>
-              "Cada história é um convite ao afeto."
+              "Histórias que conectam. Amor que se conta."
             </p>
           </div>
         </div>
