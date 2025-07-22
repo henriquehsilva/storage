@@ -159,7 +159,7 @@ const Pricing: React.FC<PricingProps> = ({ darkMode }) => {
 
                   {/* CTA Button */}
                   <a 
-                    href="https://substack.com" 
+                    href="https://henriquesilva.substack.com/subscribe" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className={`group block w-full text-center py-4 px-6 rounded-2xl font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg ${

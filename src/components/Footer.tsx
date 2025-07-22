@@ -83,7 +83,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               </h4>
               <div className="space-y-2">
                 <a 
-                  href="https://substack.com"
+                  href="https://henriquesilva.substack.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block hover:text-coral transition-colors ${
