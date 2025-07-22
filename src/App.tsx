@@ -11,14 +11,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
   
   useEffect(() => {
-    const saved = localStorage.getItem('darkMode');
-    if (saved) {
-      setDarkMode(JSON.parse(saved));
-    } else {
-      // Auto dark mode based on time
-      const hour = new Date().getHours();
-      setDarkMode(hour >= 20 || hour <= 6);
-    }
+    localStorage.getItem('darkMode');
   }, []);
 
   useEffect(() => {
