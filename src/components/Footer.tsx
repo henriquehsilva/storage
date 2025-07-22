@@ -83,7 +83,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               </h4>
               <div className="space-y-2">
                 <a 
-                  href="https://henriquesilva.substack.com/"
+                  href="https://henriquesilva.substack.com/subscribe"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block hover:text-coral transition-colors ${
@@ -129,7 +129,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               Junte-se a milhares de famílias que já descobriram o poder transformador das histórias
             </p>
             <a 
-              href="https://substack.com" 
+              href="https://henriquesilva.substack.com/subscribe" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-coral to-orange text-white rounded-2xl font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"

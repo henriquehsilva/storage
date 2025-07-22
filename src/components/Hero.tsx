@@ -60,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
         {/* CTA Button */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a 
-            href="https://henriquesilva.substack.com/" 
+            href="https://henriquesilva.substack.com/subscribe" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group relative overflow-hidden bg-gradient-to-r from-orange to-coral text-white px-8 py-4 md:px-12 md:py-6 rounded-full text-lg md:text-xl font-semibold shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
