@@ -57,7 +57,8 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               </h4>
               <div className="flex justify-center space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.instagram.com/storgeme"
+                  target='_blank'
                   className={`p-3 rounded-xl transition-all duration-300 hover:scale-110 ${
                     darkMode ? 'bg-slate-700/50 hover:bg-coral/20' : 'bg-white/50 hover:bg-coral/10'
                   } backdrop-blur-sm`}
