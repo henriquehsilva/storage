@@ -31,24 +31,6 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
           }`}>
             <span className="text-coral">"Cada história é um convite ao afeto."</span>
           </div>
-
-          {/* Contact info */}
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div>
-              <h4 className={`font-semibold mb-4 ${
-                darkMode ? 'text-cream' : 'text-sage'
-              }`}>
-                Contato
-              </h4>
-              <div className="space-y-2">
-                <a href="https://chat.whatsapp.com/B4vtMwH58bTK0qcs8TvQr4" target="_blank"
-                   className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition"
-                >
-                  Entrar no grupo do Storge no WhatsApp
-                </a>              
-              </div>
-            </div>
-
             <div>
               <h4 className={`font-semibold mb-4 ${
                 darkMode ? 'text-cream' : 'text-sage'
