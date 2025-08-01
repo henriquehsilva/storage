@@ -31,6 +31,9 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
           }`}>
             <span className="text-coral">"Cada história é um convite ao afeto."</span>
           </div>
+
+          {/* Contact info */}
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div>
               <h4 className={`font-semibold mb-4 ${
                 darkMode ? 'text-cream' : 'text-sage'
